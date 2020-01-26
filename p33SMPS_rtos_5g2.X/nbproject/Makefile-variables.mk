@@ -1,0 +1,13 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# __P33SMPS_CK__ configuration
+CND_ARTIFACT_DIR___P33SMPS_CK__=dist/__P33SMPS_CK__/production
+CND_ARTIFACT_NAME___P33SMPS_CK__=p33SMPS_rtos_5g2.X.a
+CND_ARTIFACT_PATH___P33SMPS_CK__=dist/__P33SMPS_CK__/production/p33SMPS_rtos_5g2.X.a
+CND_PACKAGE_DIR___P33SMPS_CK__=${CND_DISTDIR}/__P33SMPS_CK__/package
+CND_PACKAGE_NAME___P33SMPS_CK__=p33SMPSrtos5g2.X.tar
+CND_PACKAGE_PATH___P33SMPS_CK__=${CND_DISTDIR}/__P33SMPS_CK__/package/p33SMPSrtos5g2.X.tar
