@@ -9,15 +9,15 @@
       <logicalFolder name="f3" displayName="mcal" projectFiles="true">
       </logicalFolder>
       <logicalFolder name="f1" displayName="rtos" projectFiles="true">
-        <itemPath>rtos5/fdrv_FaultHandler.h</itemPath>
-        <itemPath>rtos5/fdrv_FaultObjects.h</itemPath>
-        <itemPath>rtos5/fdrv_TrapHandler.h</itemPath>
-        <itemPath>rtos5/os_Globals.h</itemPath>
-        <itemPath>rtos5/os_Initialize.h</itemPath>
-        <itemPath>rtos5/os_Scheduler.h</itemPath>
-        <itemPath>rtos5/os_TaskManager.h</itemPath>
+        <itemPath>rtoslib/fdrv_FaultHandler.h</itemPath>
+        <itemPath>rtoslib/fdrv_FaultObjects.h</itemPath>
+        <itemPath>rtoslib/fdrv_TrapHandler.h</itemPath>
+        <itemPath>rtoslib/os_Globals.h</itemPath>
+        <itemPath>rtoslib/os_Initialize.h</itemPath>
+        <itemPath>rtoslib/os_Scheduler.h</itemPath>
+        <itemPath>rtoslib/os_TaskManager.h</itemPath>
       </logicalFolder>
-      <itemPath>p33SMPS_rtos5.h</itemPath>
+      <itemPath>p33SMPS_rtoslib.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -26,17 +26,13 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <logicalFolder name="f2" displayName="hal" projectFiles="true">
-      </logicalFolder>
-      <logicalFolder name="f3" displayName="mcal" projectFiles="true">
-      </logicalFolder>
       <logicalFolder name="f1" displayName="rtos" projectFiles="true">
-        <itemPath>rtos5/fdrv_FaultHandler.c</itemPath>
-        <itemPath>rtos5/fdrv_FaultObjects.c</itemPath>
-        <itemPath>rtos5/fdrv_TrapHandler.c</itemPath>
-        <itemPath>rtos5/os_Initialize.c</itemPath>
-        <itemPath>rtos5/os_Scheduler.c</itemPath>
-        <itemPath>rtos5/os_TaskManager.c</itemPath>
+        <itemPath>rtoslib/fdrv_FaultHandler.c</itemPath>
+        <itemPath>rtoslib/fdrv_FaultObjects.c</itemPath>
+        <itemPath>rtoslib/fdrv_TrapHandler.c</itemPath>
+        <itemPath>rtoslib/os_Initialize.c</itemPath>
+        <itemPath>rtoslib/os_Scheduler.c</itemPath>
+        <itemPath>rtoslib/os_TaskManager.c</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
@@ -105,7 +101,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="extra-include-directories"
-                  value="rtos5\;..\..\project\config\;..\..\plib\p33SMPS_mcal.X\"/>
+                  value="rtoslib\;..\..\project\config\;..\..\plib\p33SMPS_mcal.X\"/>
         <property key="isolate-each-function" value="false"/>
         <property key="keep-inline" value="false"/>
         <property key="oXC16gcc-align-arr" value="false"/>
